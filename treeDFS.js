@@ -2,7 +2,6 @@
 //https://www.notion.so/TreeDFS-8193f16819034cb8bb366db28df5010c
 
 let dfs = function (node) {
-  // TODO: 여기에 코드를 작성합니다.
   let values = [node.value];
 
   node.children.forEach((n) => {
